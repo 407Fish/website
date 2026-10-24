@@ -7,17 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--移动端窗口-->
     <title> 云本鱼小站</title>
+    <link rel="stylesheet" href="CSS/style.css" />
     <!--引入css-->
 </head>
 <body>
-    <header>
+    <header class="headpart">
+        <nav>
+            <a href="index.html"> 主页</a>
+            <a href="LearnSource.html"> 学习资源</a>
+        </nav>
+    </header>
+    <hr />
+    <main class="mainpart">
         <nav>
             <a href="#introduction"> 自我简介</a>
             <a href="#algorithm">已学算法清单</a>
         </nav>
-    </header>
-    <hr />
-    <main>
         <figure>
             <img src="D885DC6C9F7EB45E59B2A38A3166751F.jpg" alt="照片由于某些原因打不开" width="100" loading="lazy" />
             <figcaption> <strong>最喜欢的角色</strong> <em>亚丝娜</em></figcaption>
@@ -31,8 +36,8 @@
             <li>专业：卓软</li>
             <li>年级：大二</li>
         </ul>
-        <h2>战绩</h2>
         <table border="1">
+            <thead><h3>战绩</h3></thead>
             <tr>
                 <th>比赛</th>
                 <th>排名</th>
@@ -126,9 +131,10 @@
         </details>
         <hr />
     </main>
-    <footer>
+    <footer class="footpart">
+        <h3>关于作者</h3>
         <p>Author:云本鱼</p>
-        <time datetime="2026-10-22">最后更新于2026.10.22</time>
+        <time datetime="2026-10-24">最后更新于2026.10.24</time>
     </footer>
 </body>
 </html>

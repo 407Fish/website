@@ -1,0 +1,33 @@
+.headpart {
+/*	background-color:aqua;*/
+	color:aqua;
+	font-size:larger;
+}
+.footpart {
+	/*	background-color: aqua;*/
+	color: aqua;
+}
+body {
+	background-image: url('../4806db978df121bac5c649987612d024_720.jpg');
+	background-size: cover; /* 铺满容器，多余部分裁掉 */
+	background-position: center; /* 从中心开始裁 */
+	background-repeat: no-repeat; /* 不平铺 */
+	font-size: larger;
+	color: aquamarine;
+	min-height: 100vh;
+}
+p:hover {
+	color:red;
+}
+tr:hover {
+	color:red;
+}
+summary:hover {
+	color: red;
+}
+details li:hover {
+	color:brown;
+}
+.mainpart {
+	flex:1;
+}
